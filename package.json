@@ -1,0 +1,24 @@
+{
+  "name": "run-interactive",
+  "version": "1.0.0",
+  "description": "A simple interactive CLI (command line interface) to run your npm scripts",
+  "main": "index.js",
+  "dependencies": {
+    "funccon": "^6.0.0",
+    "inquirer": "^7.3.3",
+    "inquirer-select-directory": "^1.2.0",
+    "x-con": "^4.0.1",
+    "xcolor": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "echo-stuff": "echo stuff",
+    "echo-things": "echo things",
+    "echo-foo": "echo foo"
+  },
+  "bin": {
+    "runi": "./index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
