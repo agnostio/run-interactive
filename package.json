@@ -1,6 +1,6 @@
 {
   "name": "run-interactive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple interactive CLI (command line interface) to run your npm scripts",
   "main": "index.js",
   "dependencies": {
