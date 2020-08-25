@@ -12,9 +12,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "echo-stuff": "echo stuff",
-    "echo-things": "echo things",
-    "echo-foo": "echo foo"
+    "bad-example": "echo bad example here",
+    "terrible-example": "echo terrible example here",
+    "an-other-example": "echo an other example here",
+    "the-name-is-arbitrary": "echo the name is arbitrary here"
   },
   "bin": {
     "runi": "./index.js"

@@ -68,3 +68,5 @@ ctrl+c
 
 <br/>
 </blockquote>
+
+![demo gif](https://raw.githubusercontent.com/agnostio/run-interactive/master/demo.gif)

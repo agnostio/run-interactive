@@ -1,0 +1,229 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/adammeola/Repos/run-interactive
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1527
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e]7;file://Adams-MBP.fios-router.home/Users/adammeola/Repos/run-interactive\a\e[?1034hAdams-MBP:run-interactive adammeola$ "
+  - delay: 2292
+    content: r
+  - delay: 159
+    content: u
+  - delay: 121
+    content: 'n'
+  - delay: 168
+    content: i
+  - delay: 575
+    content: "\r\n"
+  - delay: 58
+    content: "\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_____                             (¯)\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯\\   \\   __________          ,___|¯|__(¯)    /¯¯¯¯•\e[39m\e[22m\r\n\e[1m\e[38;5;34m   / /\\ \\ / _  |  __ \\ /¯¯¯¯¯\\/  __   __|¯|/¯¯¯¯¯\\____•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_/  ¯¯  \\ (_| | |  | |  (_)  \\____' |  | |  (¯)  |\e[39m\e[22m\r\n\e[1m\e[38;5;34m    /¯¯\\  \\__, |_|  |_|\\_____/|______/  |_|\\_____/\e[39m\e[22m\r\n\e[1m\e[38;5;34m•__/____\\___/  |                            \\_______•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯¯¯¯¯¯\\______/\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    -  run-interactive\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    A simple interactive CLI (command line interface) to run your npm scripts\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    Because I like to keep my build tooling seperate from my editor...\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m"
+  - delay: 266
+    content: "\e[?25l\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 731
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n\e[36m❯ terrible-example\e[39m \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 185
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n  terrible-example \r\n\e[36m❯ an-other-example\e[39m \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 172
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n  terrible-example \r\n  an-other-example \r\n\e[36m❯ the-name-is-arbitrary\e[39m \e[24D\e[24C"
+  - delay: 163
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 173
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n\e[36m❯ terrible-example\e[39m \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 171
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n  terrible-example \r\n\e[36m❯ an-other-example\e[39m \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 164
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n  terrible-example \r\n  an-other-example \r\n\e[36m❯ the-name-is-arbitrary\e[39m \e[24D\e[24C"
+  - delay: 180
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 188
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n\e[36m❯ terrible-example\e[39m \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 528
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 488
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[36mbad-example\e[39m\e[21D\e[21C\r\n\e[?25h\e[?25h"
+  - delay: 8
+    content: "bad example here\r\n\r\n"
+  - delay: 5
+    content: "\e]7;file://Adams-MBP.fios-router.home/Users/adammeola/Repos/run-interactive\aAdams-MBP:run-interactive adammeola$ "
+  - delay: 1110
+    content: runi
+  - delay: 591
+    content: "\r\n"
+  - delay: 53
+    content: "\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_____                             (¯)\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯\\   \\   __________          ,___|¯|__(¯)    /¯¯¯¯•\e[39m\e[22m\r\n\e[1m\e[38;5;34m   / /\\ \\ / _  |  __ \\ /¯¯¯¯¯\\/  __   __|¯|/¯¯¯¯¯\\____•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_/  ¯¯  \\ (_| | |  | |  (_)  \\____' |  | |  (¯)  |\e[39m\e[22m\r\n\e[1m\e[38;5;34m    /¯¯\\  \\__, |_|  |_|\\_____/|______/  |_|\\_____/\e[39m\e[22m\r\n\e[1m\e[38;5;34m•__/____\\___/  |                            \\_______•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯¯¯¯¯¯\\______/\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    -  run-interactive\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    A simple interactive CLI (command line interface) to run your npm scripts\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    Because I like to keep my build tooling seperate from my editor...\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m"
+  - delay: 263
+    content: "\e[?25l\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 546
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n\e[36m❯ terrible-example\e[39m \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 336
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[36mterrible-example\e[39m\e[26D\e[26C\r\n\e[?25h\e[?25h"
+  - delay: 9
+    content: "terrible example here\r\n\r\n"
+  - delay: 5
+    content: "\e]7;file://Adams-MBP.fios-router.home/Users/adammeola/Repos/run-interactive\aAdams-MBP:run-interactive adammeola$ "
+  - delay: 605
+    content: runi
+  - delay: 287
+    content: "\r\n"
+  - delay: 56
+    content: "\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_____                             (¯)\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯\\   \\   __________          ,___|¯|__(¯)    /¯¯¯¯•\e[39m\e[22m\r\n\e[1m\e[38;5;34m   / /\\ \\ / _  |  __ \\ /¯¯¯¯¯\\/  __   __|¯|/¯¯¯¯¯\\____•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_/  ¯¯  \\ (_| | |  | |  (_)  \\____' |  | |  (¯)  |\e[39m\e[22m\r\n\e[1m\e[38;5;34m    /¯¯\\  \\__, |_|  |_|\\_____/|______/  |_|\\_____/\e[39m\e[22m\r\n\e[1m\e[38;5;34m•__/____\\___/  |                            \\_______•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯¯¯¯¯¯\\______/\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    -  run-interactive\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    A simple interactive CLI (command line interface) to run your npm scripts\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    Because I like to keep my build tooling seperate from my editor...\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m"
+  - delay: 265
+    content: "\e[?25l\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 414
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n\e[36m❯ terrible-example\e[39m \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 194
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n  terrible-example \r\n\e[36m❯ an-other-example\e[39m \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 389
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[36man-other-example\e[39m\e[26D\e[26C\r\n\e[?25h\e[?25h"
+  - delay: 8
+    content: "an other example here\r\n\r\n"
+  - delay: 6
+    content: "\e]7;file://Adams-MBP.fios-router.home/Users/adammeola/Repos/run-interactive\aAdams-MBP:run-interactive adammeola$ "
+  - delay: 589
+    content: runi
+  - delay: 328
+    content: "\r\n"
+  - delay: 56
+    content: "\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_____                             (¯)\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯\\   \\   __________          ,___|¯|__(¯)    /¯¯¯¯•\e[39m\e[22m\r\n\e[1m\e[38;5;34m   / /\\ \\ / _  |  __ \\ /¯¯¯¯¯\\/  __   __|¯|/¯¯¯¯¯\\____•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_/  ¯¯  \\ (_| | |  | |  (_)  \\____' |  | |  (¯)  |\e[39m\e[22m\r\n\e[1m\e[38;5;34m    /¯¯\\  \\__, |_|  |_|\\_____/|______/  |_|\\_____/\e[39m\e[22m\r\n\e[1m\e[38;5;34m•__/____\\___/  |                            \\_______•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯¯¯¯¯¯\\______/\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    -  run-interactive\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    A simple interactive CLI (command line interface) to run your npm scripts\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    Because I like to keep my build tooling seperate from my editor...\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m"
+  - delay: 287
+    content: "\e[?25l\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 271
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n\e[36m❯ terrible-example\e[39m \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 224
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n  terrible-example \r\n\e[36m❯ an-other-example\e[39m \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 172
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\r\n  bad-example \r\n  terrible-example \r\n  an-other-example \r\n\e[36m❯ the-name-is-arbitrary\e[39m \e[24D\e[24C"
+  - delay: 514
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[36mthe-name-is-arbitrary\e[39m\e[31D\e[31C\r\n\e[?25h\e[?25h"
+  - delay: 8
+    content: "the name is arbitrary here\r\n\r\n"
+  - delay: 5
+    content: "\e]7;file://Adams-MBP.fios-router.home/Users/adammeola/Repos/run-interactive\aAdams-MBP:run-interactive adammeola$ "
+  - delay: 734
+    content: runi
+  - delay: 559
+    content: "\r\n"
+  - delay: 57
+    content: "\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_____                             (¯)\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯\\   \\   __________          ,___|¯|__(¯)    /¯¯¯¯•\e[39m\e[22m\r\n\e[1m\e[38;5;34m   / /\\ \\ / _  |  __ \\ /¯¯¯¯¯\\/  __   __|¯|/¯¯¯¯¯\\____•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•_/  ¯¯  \\ (_| | |  | |  (_)  \\____' |  | |  (¯)  |\e[39m\e[22m\r\n\e[1m\e[38;5;34m    /¯¯\\  \\__, |_|  |_|\\_____/|______/  |_|\\_____/\e[39m\e[22m\r\n\e[1m\e[38;5;34m•__/____\\___/  |                            \\_______•\e[39m\e[22m\r\n\e[1m\e[38;5;34m•¯¯¯¯¯¯¯\\______/\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    -  run-interactive\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    A simple interactive CLI (command line interface) to run your npm scripts\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m    Because I like to keep my build tooling seperate from my editor...\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m\r\n\e[1m\e[38;5;34m\e[39m\e[22m"
+  - delay: 266
+    content: "\e[?25l\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[2m(Use arrow keys)\e[22m\r\n\e[36m❯ bad-example\e[39m \r\n  terrible-example \r\n  an-other-example \r\n  the-name-is-arbitrary \e[24D\e[24C"
+  - delay: 606
+    content: "\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[1A\e[2K\e[G\e[32m?\e[39m \e[1mscript:\e[22m\e[0m \e[0m\e[36mbad-example\e[39m\e[21D\e[21C\r\n\e[?25h\e[?25h"
+  - delay: 7
+    content: "bad example here\r\n\r\n"
+  - delay: 5
+    content: "\e]7;file://Adams-MBP.fios-router.home/Users/adammeola/Repos/run-interactive\aAdams-MBP:run-interactive adammeola$ "
+  - delay: 1140
+    content: "logout\r\nSaving session..."
+  - delay: 9
+    content: "\r\n...saving history..."
+  - delay: 7
+    content: "truncating history files...\r\n...completed.\r\n"
